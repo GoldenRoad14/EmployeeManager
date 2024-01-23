@@ -1,0 +1,19 @@
+{
+  "name": "12-sql-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index --watch",
+    "schema": "mysql -p -e='source ./db/schema.sql'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-art-font": "2.8.5",
+    "inquirer": "8.2.4",
+    "mysql2": "^2.1.0"
+  }
+}
